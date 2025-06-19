@@ -2,7 +2,7 @@
 You know the drill.
 ## Initial setup
 - Install ASS plugin
-- Import Scene Collection
+- Import Scene Collection from `./OBS files/RESC25.json`
 - Find all missing files
 > [!NOTE]
 > The images in the slideshows might not be found immediately using the file search thing that OBS prompts, in which case you will need to add the files again manually.
