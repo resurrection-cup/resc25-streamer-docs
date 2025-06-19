@@ -14,13 +14,17 @@ Since we have many animations and different scenes, please pay attention to the 
 - Stream Title & Stream Ping: your classic copy pasta
 - Dropdowns: Choose winner for the pick (or change to Pick to remove winner)
 ## General stream running procedure
-- Before stream starts, in Overlay Controller:
+### Before stream starts
+- in Overlay Controller:
     - Turn **ON** `Beatmap Details` on top right
     - Choose correct Stage
     - Choose Match ID to stream
     - Change Stream Title and ready for Stream Ping
+- Make sure you have enabled Studio Mode in OBS
+- Make a new Windowed Projector (Program) and share that window in Discord. Take this time to also check with casters that they can hear Gameplay and BGM through the Discord stream
 - 5 minutes before match starts, ping stream in the correct channel with correct role
-- On stream start, stays on the `STARTING - Match` scene until countdown reaches 0, then transition to `INTERMISSION` for casters to do the intro. This can be flexible depends on what the casters are talking about.
+### On stream starts / during stream
+- Stays on the `STARTING - Match` scene until countdown reaches 0, then transition to `INTERMISSION` for casters to do the intro. This can be flexible depends on what the casters are talking about.
 - Upon going to ban phase (you should be monitoring in-game chat during the stream), transition from `INTERMISSION` to `Mappool`
     - Before transitioning, in Overlay Controller, select First Ban slot
 - Select banned maps in order (wait for the transition to finish for each slots)

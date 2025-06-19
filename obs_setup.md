@@ -1,7 +1,11 @@
 # OBS Setup
 You know the drill.
 ## Initial setup
+- Install ASS plugin
 - Import Scene Collection
+- Find all missing files
+> [!NOTE]
+> The images in the slideshows might not be found immediately using the file search thing that OBS prompts, in which case you will need to add the files again manually.
 - Config OBS Stream profile as follow:
 > - Stream: make sure `Enable Enhanced Broadcasting` is **disabled**
 > - Output/Streaming: 6k constant bitrate, Low Latency
@@ -22,5 +26,6 @@ For Casters audio:
 - `Streamer Mic` can be change as you see fit (only if you have Commentator role, else remove this source)
 ## ASS Setup
 This part is ASS (quite literally). It just works half of the time, then the other half is when things randomly breaks. ASS is mainly used for smooth audio transitioning between scenes (BGM and Gameplay audio mostly).
-- Import ASS backup file from `./OBS files/ASS config`
-- Check for stuff and see if it works or not. If it doesn't, ~~glhf~~ let me (hoaq) know
+- Tools -> ASS -> General -> Save / load settings -> Import -> import `adv-ss-RESC25.txt`
+- Go through all macros and make sure that all scenes are correct
+- Try transitioning between scenes to see if ASS is working or not. If not, ping Hoaq
