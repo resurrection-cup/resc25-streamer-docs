@@ -1,0 +1,1 @@
+import{_ as t,c as a,o,ae as i}from"./chunks/framework.Dgg8-8ov.js";const h=JSON.parse('{"title":"OBS Setup","description":"","frontmatter":{},"headers":[],"relativePath":"obs_setup.md","filePath":"obs_setup.md"}'),s={name:"obs_setup.md"};function l(u,e,r,n,d,c){return o(),a("div",null,e[0]||(e[0]=[i("",14)]))}const m=t(s,[["render",l]]);export{h as __pageData,m as default};
