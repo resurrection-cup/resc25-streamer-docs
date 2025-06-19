@@ -7,6 +7,7 @@ You know the drill.
 > [!NOTE]
 > The images in the slideshows might not be found immediately using the file search thing that OBS prompts, in which case you will need to add the files again manually.
 - Config OBS Stream profile as follow:
+> - General/Output: enable `Automatically record when streaming`
 > - Stream: make sure `Enable Enhanced Broadcasting` is **disabled**
 > - Output/Streaming: 6k constant bitrate, Low Latency
 > - Output/Recording: 10k constant bitrate, High Quality
